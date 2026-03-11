@@ -15,3 +15,8 @@ This allows you to test quickly over the ROS network, but note there can be some
 dts devel build -f
 dts devel run -R ROBOT_NAME -L wheel-control
 ```
+
+🔹 Remove Existing Container
+```bash
+docker rm -f dts-run-assignment
+```
